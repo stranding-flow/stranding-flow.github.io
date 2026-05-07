@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CMake on Kibrac&#39;s Blog</title>
+    <title>CMake on 搁浅 Flow</title>
     <link>https://stranding-flow.github.io/tags/cmake/</link>
-    <description>Recent content in CMake on Kibrac&#39;s Blog</description>
+    <description>Recent content in CMake on 搁浅 Flow</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 25 Aug 2025 00:19:52 +0800</lastBuildDate>
     <atom:link href="https://stranding-flow.github.io/tags/cmake/index.xml" rel="self" type="application/rss+xml" />
     <item>
