@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+<script>
+  
+  
+  (function() {
+    const theme = localStorage.getItem('theme');
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else if (theme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ollama | Kibrac&#39;s Blog</title>
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<link rel="preload" href="https://fonts.gstatic.com/s/ysabeauoffice/v1/LDIqapSCOBt_aeQQ7ftydoa0kePuk5A1-_qyGsrzqw.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="kind-term section-tags">
+    <div class="site-layout">
+        
+        <aside class="sidebar">
+            <div class="sidebar-content">
+    
+    <div class="sidebar-author">
+        
+            
+                <div class="author-avatar">
+                    <img src="/images/avatar2.jpg" alt="Author Avatar">
+                </div>
+            
+            <h1 class="author-name">搁浅 Flow</h1>
+            <p class="author-bio">Stay Hungry Stay Foolish</p>
+        
+        
+        
+        <div class="social-links">
+            
+                
+                    <a href="mailto:kibrachen@outlook.com" target="_blank" rel="noopener noreferrer" title="Email">
+                        
+                            <svg class="icon"><use href="#tabler-mail"></use></svg>
+                        
+                    </a>
+                
+                    <a href="https://github.com/kibrac" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        
+                            <svg class="icon"><use href="#tabler-brand-github"></use></svg>
+                        
+                    </a>
+                
+            
+        </div>
+    </div>
+    
+    
+    <nav class="sidebar-nav">
+        <ul>
+            
+            
+                
+                
+                
+                <li class="">
+                    <a href="/">
+                        
+                            <svg class="icon"><use href="#tabler-home"></use></svg>
+                        
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+            
+                
+                
+                
+                <li class="">
+                    <a href="/posts/">
+                        
+                            <svg class="icon"><use href="#tabler-notebook"></use></svg>
+                        
+                        <span class="nav-text">Posts</span>
+                    </a>
+                </li>
+            
+                
+                
+                
+                <li class="">
+                    <a href="/topics/">
+                        
+                            <svg class="icon"><use href="#tabler-link"></use></svg>
+                        
+                        <span class="nav-text">Topics</span>
+                    </a>
+                </li>
+            
+                
+                
+                
+                <li class="">
+                    <a href="/archive/">
+                        
+                            <svg class="icon"><use href="#tabler-archive"></use></svg>
+                        
+                        <span class="nav-text">Archive</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    
+    
+    <div class="theme-toggle-section">
+        <button id="theme-toggle" class="theme-toggle-btn">
+            🌙☀️
+        </button>
+    </div>
+    
+    
+    <div class="sidebar-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2026 搁浅 Flow</p>
+            <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+        </div>
+    </div>
+</div>
+
+
+<button class="mobile-menu-toggle" id="mobile-menu-toggle">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+</button>
+        </aside>
+        
+        
+        <div class="main-wrapper">
+            <main class="main-content">
+                
+<div class="content-container tag-page">
+    
+    <header class="page-header">
+        <h1 class="page-title">Ollama</h1>
+        <p class="page-subtitle">1 article tagged with "Ollama"</p>
+    </header>
+    
+    
+    <div class="posts-masonry">
+        
+        <article class="post-item-masonry">
+            <a href="https://stranding-flow.github.io/posts/local-deployment-llm-safetensors-format/" class="post-masonry-link">
+                
+                    <div class="post-masonry-image">
+                        <img src="https://images.unsplash.com/photo-1745674684539-d90293d659a9?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ollama" loading="lazy">
+                    </div>
+                
+                <div class="post-masonry-content">
+                    <div class="post-masonry-meta">
+                        <div class="meta-left">
+                            <time class="post-date">Aug 25</time>
+                            
+                                
+                                     
+                                        <a href="/tags/llm" class="post-tag">LLM</a>
+                                    
+                                
+                                     
+                                        <a href="/tags/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2" class="post-tag">模型部署</a>
+                                    
+                                
+                            
+                        </div>
+                        <span class="post-reading-time">6min</span>
+                    </div>
+                    <h2 class="post-masonry-title">本地部署大模型——Safetensors 格式</h2>
+                    
+                        <p class="post-masonry-summary">这是一篇详细的本地大模型部署实操记录，介绍如何在Windows环境下使用llama.cpp将Baichuan-M2-32B模型的Safetensors格式转换为GGUF格式，重点分享了CMake编译过 …</p>
+                    
+                </div>
+            </a>
+        </article>
+        
+    </div>
+</div>
+
+            </main>
+        </div>
+    </div>
+    
+    
+    <div class="mobile-overlay"></div>
+    
+    <a id="back-to-top" href="#" title="返回顶部">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m18 15-6-6-6 6"/>
+        </svg>
+    </a>
+    
+    
+    <svg style="display: none;">
+        <defs>
+            <symbol id="tabler-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9,22 9,12 15,12 15,22"></polyline>
+            </symbol>
+            <symbol id="tabler-notebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
+                <path d="M9 8h6"></path>
+                <path d="M9 12h6"></path>
+                <path d="M9 16h6"></path>
+            </symbol>
+            <symbol id="tabler-article" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4zM3 10a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10z"></path>
+                <path d="M7 13h10M7 16h6"></path>
+            </symbol>
+            <symbol id="tabler-archive" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="4" rx="2"></rect>
+                <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"></path>
+                <path d="M10 12h4"></path>
+            </symbol>
+            <symbol id="tabler-tags" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7v4a1 1 0 0 0 .293.707l8 8a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0 0-1.414l-8-8A1 1 0 0 0 8 6H4a1 1 0 0 0-1 1z"></path>
+                <path d="M7 10h.01"></path>
+                <path d="M12 6l5.5 5.5a1 1 0 0 1 0 1.414L15 15.5"></path>
+            </symbol>
+            <symbol id="tabler-category" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h6v6h-6z"></path>
+                <path d="M14 4h6v6h-6z"></path>
+                <path d="M4 14h6v6h-6z"></path>
+                <path d="M17 14v6"></path>
+                <path d="M14 17h6"></path>
+            </symbol>
+            <symbol id="tabler-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+            </symbol>
+            <symbol id="tabler-brand-github" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+            </symbol>
+            <symbol id="tabler-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m2 6 10 6 10-6"></path>
+            </symbol>
+            <symbol id="tabler-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path>
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path>
+            </symbol>
+            <symbol id="tabler-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+            </symbol>
+        </defs>
+    </svg>
+    
+    <script src="/js/theme-switcher.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

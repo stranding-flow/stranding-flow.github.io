@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+<script>
+  
+  
+  (function() {
+    const theme = localStorage.getItem('theme');
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else if (theme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>重装系统备忘录 | Kibrac&#39;s Blog</title>
+<link rel="icon" type="image/png" href="/images/favicon.png">
+
+
+<link rel="preload" href="https://fonts.gstatic.com/s/ysabeauoffice/v1/LDIqapSCOBt_aeQQ7ftydoa0kePuk5A1-_qyGsrzqw.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="kind-page section-posts">
+    <div class="site-layout">
+        
+        <aside class="sidebar">
+            <div class="sidebar-content">
+    
+    <div class="sidebar-author">
+        
+            
+                <div class="author-avatar">
+                    <img src="/images/avatar2.jpg" alt="Author Avatar">
+                </div>
+            
+            <h1 class="author-name">搁浅 Flow</h1>
+            <p class="author-bio">Stay Hungry Stay Foolish</p>
+        
+        
+        
+        <div class="social-links">
+            
+                
+                    <a href="mailto:kibrachen@outlook.com" target="_blank" rel="noopener noreferrer" title="Email">
+                        
+                            <svg class="icon"><use href="#tabler-mail"></use></svg>
+                        
+                    </a>
+                
+                    <a href="https://github.com/kibrac" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        
+                            <svg class="icon"><use href="#tabler-brand-github"></use></svg>
+                        
+                    </a>
+                
+            
+        </div>
+    </div>
+    
+    
+    <nav class="sidebar-nav">
+        <ul>
+            
+            
+                
+                
+                
+                <li class="">
+                    <a href="/">
+                        
+                            <svg class="icon"><use href="#tabler-home"></use></svg>
+                        
+                        <span class="nav-text">Home</span>
+                    </a>
+                </li>
+            
+                
+                
+                
+                <li class="active">
+                    <a href="/posts/">
+                        
+                            <svg class="icon"><use href="#tabler-notebook"></use></svg>
+                        
+                        <span class="nav-text">Posts</span>
+                    </a>
+                </li>
+            
+                
+                
+                
+                <li class="">
+                    <a href="/topics/">
+                        
+                            <svg class="icon"><use href="#tabler-link"></use></svg>
+                        
+                        <span class="nav-text">Topics</span>
+                    </a>
+                </li>
+            
+                
+                
+                
+                <li class="">
+                    <a href="/archive/">
+                        
+                            <svg class="icon"><use href="#tabler-archive"></use></svg>
+                        
+                        <span class="nav-text">Archive</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    
+    
+    <div class="theme-toggle-section">
+        <button id="theme-toggle" class="theme-toggle-btn">
+            🌙☀️
+        </button>
+    </div>
+    
+    
+    <div class="sidebar-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2026 搁浅 Flow</p>
+            <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank">Hugo</a></p>
+        </div>
+    </div>
+</div>
+
+
+<button class="mobile-menu-toggle" id="mobile-menu-toggle">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+</button>
+        </aside>
+        
+        
+        <div class="main-wrapper">
+            <main class="main-content">
+                
+<div class="content-container">
+    <article class="post-single">
+        <header class="post-header">
+            <h1 class="post-title">重装系统备忘录</h1>
+            
+                <p class="post-description">记录重装系统后必要的软件配置流程，包括 Git SSH 连接 GitHub、PicGO 图床配置等实用技巧。</p>
+            
+            <div class="post-meta">
+                <span class="post-date">February 27, 2026</span>
+                <span class="post-reading-time">1 min read</span>
+                
+                    <div class="post-tags">
+                        
+                            <a href="/tags/git" class="tag">Git</a>
+                        
+                            <a href="/tags/picgo" class="tag">PicGO</a>
+                        
+                            <a href="/tags/%E9%85%8D%E7%BD%AE" class="tag">配置</a>
+                        
+                    </div>
+                
+            </div>
+        </header>
+
+        
+            <div class="post-cover">
+                <img src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&amp;w=1170&amp;auto=format&amp;fit=crop" alt="重装系统备忘录" loading="lazy">
+            </div>
+        
+
+        <div class="post-content">
+            <h2 id="git-配置">Git 配置</h2>
+<p>以下代码均在 <code>Git Bash</code> 中运行。</p>
+<h3 id="设置用户信息">设置用户信息</h3>
+<div class="code-block-wrapper">
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git config --global user.name <span class="s2">&#34;Name Here&#34;</span> //设置用户名
+</span></span><span class="line"><span class="cl">git config --global user.email admin@example.com //设置自己的邮箱</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div><h3 id="git-通过-ssh-连接到-github">Git 通过 SSH 连接到 Github</h3>
+<h4 id="本地创建密钥文件">本地创建密钥文件</h4>
+<div class="code-block-wrapper">
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -C <span class="s2">&#34;这里换上你的邮箱&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div><p>执行命令后一路点击确认即可。</p>
+<blockquote>
+<p>其中涉及到的操作包含确认 Key 的保存路径，如果路径下原来已有密钥文件则确认是否覆盖，创建密码——直接回车代表不需要密码，确认密码。）</p>
+</blockquote>
+<p>命令执行完成后会在上述提到的保存路径中生成两个文件，分别名为 <code>id_rsa</code> 和 <code>id_rsa.pub</code>。</p>
+<h4 id="github-配置">Github 配置</h4>
+<p>在 Github 的 Settings 左侧边栏中选择 <code>SSH and GPG keys</code>，点击 <code>New SSH key</code>，Title 可以自己取，<code>Key type</code> 保持为 <code>Authentication Key</code>，然后将之前生成的 id_rsa.pub 用文本工具例如记事本打开，将其中的内容粘贴到输入框中保存即可。</p>
+<p>使用下列命令可以测试是否设置成功。</p>
+<div class="code-block-wrapper">
+    <div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div><blockquote>
+<p>首次配置需要确认一次，输入 yes 之后出现欢迎语句即表明配置成功，如下图示例。</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/kibrac/img_vault/main/Blog_img/20260227211254425.png" alt=""></p>
+<h2 id="picgo-配置以-github-图床为例">PicGO 配置（以 Github 图床为例）</h2>
+<h3 id="生成-github-token">生成 Github Token</h3>
+<ol>
+<li>在 GitHub 的 Settings 左侧边栏中选择 <code>Developer settings</code>；</li>
+<li>点击 <code>Personal access tokens</code> 选择 <code>Tokens(classic)</code> 生成一个新 Token 并确保勾选了 <code>repo</code> 权限；</li>
+<li>复制生成的 Token（注意只会显示一次，所以此时应当妥善保存）。</li>
+</ol>
+<h3 id="picgo-配置">PicGo 配置</h3>
+<ol>
+<li>在软件的图床设置中选择 Github；</li>
+<li>点击加号新建一个配置，从上到下依次是图床配置名（可自定义）、设定仓库名（Github中对应仓库的名字）、设定分支名、设定 Token（即此前生成的 Token）、设定存储路径（如可指定仓库下的特定文件夹）、设定自定义域名（如果有的话，否则可置空）</li>
+<li>保存配置。</li>
+</ol>
+
+        </div>
+
+        
+<nav class="post-navigation">
+    
+    <a href="/posts/local-deployment-llm-safetensors-format/" class="prev">
+        &laquo; 本地部署大模型——Safetensors 格式
+    </a>
+    
+    
+    
+</nav>
+
+
+    </article>
+</div>
+
+
+
+            </main>
+        </div>
+    </div>
+    
+    
+    <div class="mobile-overlay"></div>
+    
+    <a id="back-to-top" href="#" title="返回顶部">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m18 15-6-6-6 6"/>
+        </svg>
+    </a>
+    
+    
+    <svg style="display: none;">
+        <defs>
+            <symbol id="tabler-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9,22 9,12 15,12 15,22"></polyline>
+            </symbol>
+            <symbol id="tabler-notebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
+                <path d="M9 8h6"></path>
+                <path d="M9 12h6"></path>
+                <path d="M9 16h6"></path>
+            </symbol>
+            <symbol id="tabler-article" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4zM3 10a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10z"></path>
+                <path d="M7 13h10M7 16h6"></path>
+            </symbol>
+            <symbol id="tabler-archive" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="4" rx="2"></rect>
+                <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"></path>
+                <path d="M10 12h4"></path>
+            </symbol>
+            <symbol id="tabler-tags" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7v4a1 1 0 0 0 .293.707l8 8a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0 0-1.414l-8-8A1 1 0 0 0 8 6H4a1 1 0 0 0-1 1z"></path>
+                <path d="M7 10h.01"></path>
+                <path d="M12 6l5.5 5.5a1 1 0 0 1 0 1.414L15 15.5"></path>
+            </symbol>
+            <symbol id="tabler-category" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h6v6h-6z"></path>
+                <path d="M14 4h6v6h-6z"></path>
+                <path d="M4 14h6v6h-6z"></path>
+                <path d="M17 14v6"></path>
+                <path d="M14 17h6"></path>
+            </symbol>
+            <symbol id="tabler-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+            </symbol>
+            <symbol id="tabler-brand-github" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+            </symbol>
+            <symbol id="tabler-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m2 6 10 6 10-6"></path>
+            </symbol>
+            <symbol id="tabler-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path>
+                <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path>
+            </symbol>
+            <symbol id="tabler-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+            </symbol>
+        </defs>
+    </svg>
+    
+    <script src="/js/theme-switcher.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
