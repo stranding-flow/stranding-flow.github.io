@@ -3,13 +3,38 @@
 <head>
 	<meta name="generator" content="Hugo 0.161.1">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>搁浅 Flow</title>
-<meta name="description" content="一个极简的個人博客">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark') {
+        document.body.classList.add('dark');
+      }
+    })();
+  </script>
+  <style>
+    body.dark { --bg: #1e1e22; --bg-secondary: #2a2a30; --text: #c0c0c0; --text-secondary: #909090; --text-muted: #666666; --border: #3a3a42; --accent: #8aa88c; }
+    body:not(.dark) { --bg: #f5f3ee; --bg-secondary: #ebe8e2; }
+  </style><title>搁浅 Flow</title>
+<meta name="description" content="Stay hungry Stay foolish">
+<meta name="author" content="搁浅 Flow">
+<meta name="keywords" content="博客, 个人网站, 技术分享, ">
+<link rel="canonical" href="https://stranding-flow.github.io/">
+<meta property="og:title" content="搁浅 Flow">
+<meta property="og:description" content="Stay hungry Stay foolish">
+<meta property="og:url" content="https://stranding-flow.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="搁浅 Flow">
+<meta property="og:image" content="/images/avatar.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="搁浅 Flow">
+<meta name="twitter:description" content="Stay hungry Stay foolish">
 <link rel="preload" href="/fonts/Nunito-600.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="/fonts/LXGWWenKai-Regular.ttf" as="font" type="font/ttf" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
-<link rel="icon" href="/images/avatar.jpg" type="image/jpeg"></head>
+<link rel="icon" href="/favicon.png" type="image/png"></head>
 <body>
   <div class="noise"></div>
   <div class="container">
@@ -48,54 +73,95 @@
     </header>
 
     <main class="site-main">
-<div class="list-header">
-  <h1 class="list-title">文章</h1>
-  <p class="list-description">共 2 篇</p>
+<section class="home-hero">
+  <div class="home-avatar">
+    <img src="/images/avatar.jpg" alt="搁浅 Flow">
+  </div>
+  <h1 class="home-name">搁浅 Flow</h1>
+  <p class="home-signature">流水不争先，争的是滔滔不绝</p>
+  
+  <p class="home-bio">一个努力让自己变得笃定和谦逊的学生。</p>
+  
+
+  <div class="home-social">
+    
+    <a href="mailto:stranding_flow@outlook.com" class="social-link" aria-label="邮箱" title="邮箱">
+      <img src="/images/邮箱.svg" alt="邮箱" class="social-icon">
+    </a>
+    
+    
+    <a href="https://github.com/stranding-flow" class="social-link" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+      <img src="/images/github.svg" alt="GitHub" class="social-icon">
+    </a>
+    
+    
+    <a href="https://www.xiaohongshu.com/user/profile/68e6920b0000000037002c61" class="social-link" target="_blank" rel="noopener" aria-label="小红书" title="小红书">
+      <img src="/images/小红书.svg" alt="小红书" class="social-icon">
+    </a>
+    
+    
+    <a href="https://www.zhihu.com/people/90-25-86-70" class="social-link" target="_blank" rel="noopener" aria-label="知乎" title="知乎">
+      <img src="/images/知乎.svg" alt="知乎" class="social-icon">
+    </a>
+    
+    
+    <a href="#" class="social-link wechat-link" aria-label="微信公众号" title="微信公众号">
+      <img src="/images/公众号.svg" alt="微信公众号" class="social-icon">
+    </a>
+    
+  </div>
+</section>
+
+<section class="home-recent">
+  <h2 class="home-section-title">近期文章</h2>
+  <ul class="post-list">
+    
+    <li class="post-item">
+      <a href="/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%A4%87%E5%BF%98%E5%BD%95/" class="post-link">
+        
+        <div class="post-cover">
+          <img src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&amp;w=1170&amp;auto=format&amp;fit=crop" alt="搁浅 Flow" loading="lazy">
+        </div>
+        
+        <div class="post-content">
+          <h3 class="post-title">重装系统备忘录</h3>
+          <div class="post-meta">
+            2026-02-27
+             · 工具配置
+          </div>
+        </div>
+      </a>
+    </li>
+    
+    <li class="post-item">
+      <a href="/posts/local-deployment-llm-safetensors-format/" class="post-link">
+        
+        <div class="post-cover">
+          <img src="https://images.unsplash.com/photo-1745674684539-d90293d659a9?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="搁浅 Flow" loading="lazy">
+        </div>
+        
+        <div class="post-content">
+          <h3 class="post-title">本地部署大模型——Safetensors 格式</h3>
+          <div class="post-meta">
+            2025-08-25
+             · 技术实践
+          </div>
+        </div>
+      </a>
+    </li>
+    
+  </ul>
+</section>
+
+
+<div class="wechat-modal" id="wechatModal">
+  <div class="wechat-modal-content">
+    <p class="wechat-modal-title">微信公众号</p>
+    <p class="wechat-modal-hint">扫码关注</p>
+    <img src="/images/wechat-qr.jpg" alt="微信公众号二维码" class="wechat-qr">
+  </div>
 </div>
 
-<ul class="post-list">
-  
-  <li class="post-item">
-    <a href="/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%A4%87%E5%BF%98%E5%BD%95/" class="post-link">
-      
-      <div class="post-cover">
-        <img src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?q=80&amp;w=1170&amp;auto=format&amp;fit=crop" alt="搁浅 Flow" loading="lazy">
-      </div>
-      
-      <div class="post-content">
-        <h2 class="post-title">重装系统备忘录</h2>
-        <div class="post-meta">
-          2026-02-27
-           · 工具配置
-        </div>
-        
-        <p class="post-excerpt">记录重装系统后必要的软件配置流程，包括 Git SSH 连接 GitHub、PicGO 图床配置等实用技巧。</p>
-        
-      </div>
-    </a>
-  </li>
-  
-  <li class="post-item">
-    <a href="/posts/local-deployment-llm-safetensors-format/" class="post-link">
-      
-      <div class="post-cover">
-        <img src="https://images.unsplash.com/photo-1745674684539-d90293d659a9?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="搁浅 Flow" loading="lazy">
-      </div>
-      
-      <div class="post-content">
-        <h2 class="post-title">本地部署大模型——Safetensors 格式</h2>
-        <div class="post-meta">
-          2025-08-25
-           · 技术实践
-        </div>
-        
-        <p class="post-excerpt">这是一篇详细的本地大模型部署实操记录，介绍如何在Windows环境下使用llama.cpp将Baichuan-M2-32B模型的Safetensors格式转换为GGUF格式，重点分享了CMake编译过程中遇到的问题及解决方案，包括VS环境配置、curl库安装等技术细节。</p>
-        
-      </div>
-    </a>
-  </li>
-  
-</ul>
 
     </main>
 
@@ -103,6 +169,7 @@
       <div class="footer-inner">
         <p class="copyright">© 2026 搁浅 Flow</p>
       </div>
+      <p class="powered-by">Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></p>
     </footer>
   </div>
   <script>
@@ -114,9 +181,114 @@
         body.classList.add('dark');
       }
       toggle.addEventListener('click', function() {
-        body.classList.toggle('dark');
-        localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          body.classList.toggle('dark');
+          localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+          return;
+        }
+        if (!('startViewTransition' in document)) {
+          body.classList.toggle('dark');
+          localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+          return;
+        }
+        var root = document.documentElement;
+        var currentFrom = getComputedStyle(root).getPropertyValue('--from').trim();
+        if (currentFrom === '0 0 0 100%') {
+          root.style.setProperty('--from', '0 100% 0 0');
+        } else {
+          root.style.setProperty('--from', '0 0 0 100%');
+        }
+        root.style.setProperty('view-transition-name', 'animation-theme-toggle');
+        var transition = document.startViewTransition(() => {
+          body.classList.toggle('dark');
+          localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+        });
+        transition.finished.then(() => {
+          root.style.removeProperty('view-transition-name');
+        });
       });
+
+      
+      const topBtn = document.createElement('button');
+      topBtn.className = 'back-to-top';
+      topBtn.setAttribute('aria-label', '回到顶部');
+      topBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>';
+      document.body.appendChild(topBtn);
+
+      window.addEventListener('scroll', function() {
+        topBtn.classList.toggle('visible', window.scrollY > 400);
+      });
+
+      topBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      
+      const wechatLink = document.querySelector('.wechat-link');
+      const wechatModal = document.getElementById('wechatModal');
+      if (wechatLink && wechatModal) {
+        wechatLink.addEventListener('click', function(e) {
+          e.preventDefault();
+          wechatModal.classList.add('show');
+        });
+        wechatModal.addEventListener('click', function(e) {
+          if (e.target === wechatModal) {
+            wechatModal.classList.remove('show');
+          }
+        });
+      }
+
+      
+      const COLLAPSE_LINES = 20;
+      document.querySelectorAll('.single-content .highlight').forEach(function(block) {
+        
+        const wrapper = document.createElement('div');
+        wrapper.className = 'code-wrapper';
+        block.parentNode.insertBefore(wrapper, block);
+        wrapper.appendChild(block);
+
+        
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'copy-btn';
+        copyBtn.textContent = '复制';
+        copyBtn.setAttribute('aria-label', '复制代码');
+        wrapper.appendChild(copyBtn);
+
+        copyBtn.addEventListener('click', function() {
+          const code = block.querySelector('code');
+          const text = code ? code.textContent : block.textContent;
+          navigator.clipboard.writeText(text).then(function() {
+            copyBtn.textContent = '已复制';
+            setTimeout(function() { copyBtn.textContent = '复制'; }, 2000);
+          }).catch(function() {
+            copyBtn.textContent = '失败';
+            setTimeout(function() { copyBtn.textContent = '复制'; }, 2000);
+          });
+        });
+
+        
+        const lines = block.querySelectorAll('.line');
+        if (lines.length > COLLAPSE_LINES) {
+          wrapper.classList.add('collapsed');
+        }
+      });
+
+      
+      const tocLinks = document.querySelectorAll('.toc a');
+      if (tocLinks.length > 0) {
+        const headings = document.querySelectorAll('.single-content h2, .single-content h3');
+        const observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              tocLinks.forEach(function(link) { link.classList.remove('active'); });
+              const id = entry.target.id;
+              const activeLink = document.querySelector('.toc a[href="#' + id + '"]');
+              if (activeLink) activeLink.classList.add('active');
+            }
+          });
+        }, { rootMargin: '-80px 0px -60% 0px' });
+        headings.forEach(function(h) { if (h.id) observer.observe(h); });
+      }
     })();
   </script>
 </body>
