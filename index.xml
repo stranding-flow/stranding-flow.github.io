@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>搁浅 Flow</title>
-    <link>https://stranding-flow.github.io/</link>
-    <description>Recent content on 搁浅 Flow</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <copyright>© {year} 搁浅 Flow</copyright>
-    <lastBuildDate>Fri, 27 Feb 2026 20:23:52 +0800</lastBuildDate>
-    <atom:link href="https://stranding-flow.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>重装系统备忘录</title>
-      <link>https://stranding-flow.github.io/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%A4%87%E5%BF%98%E5%BD%95/</link>
-      <pubDate>Fri, 27 Feb 2026 20:23:52 +0800</pubDate>
-      <guid>https://stranding-flow.github.io/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
-      <description>&lt;h2 id=&#34;git-配置&#34;&gt;Git 配置&lt;/h2&gt;&#xA;&lt;p&gt;以下代码均在 &lt;code&gt;Git Bash&lt;/code&gt; 中运行。&lt;/p&gt;&#xA;&lt;h3 id=&#34;设置用户信息&#34;&gt;设置用户信息&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;Name Here&amp;#34;&lt;/span&gt; //设置用户名&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email admin@example.com //设置自己的邮箱&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-通过-ssh-连接到-github&#34;&gt;Git 通过 SSH 连接到 Github&lt;/h3&gt;&#xA;&lt;h4 id=&#34;本地创建密钥文件&#34;&gt;本地创建密钥文件&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t rsa -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;这里换上你的邮箱&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;执行命令后一路点击确认即可。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;其中涉及到的操作包含确认 Key 的保存路径，如果路径下原来已有密钥文件则确认是否覆盖，创建密码——直接回车代表不需要密码，确认密码。）&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>本地部署大模型——Safetensors 格式</title>
-      <link>https://stranding-flow.github.io/posts/local-deployment-llm-safetensors-format/</link>
-      <pubDate>Mon, 25 Aug 2025 00:19:52 +0800</pubDate>
-      <guid>https://stranding-flow.github.io/posts/local-deployment-llm-safetensors-format/</guid>
-      <description>&lt;p&gt;偶然看到这样一篇公众号文章：&lt;a href=&#34;https://mp.weixin.qq.com/s/SbsYn-DO9UAkyu09C9mwIg&#34;&gt;Baichuan-M2：百川的医疗答卷｜模型解读&lt;/a&gt;，于是一时兴起决定拿来作为自己第一个本地部署大模型的练手项目。&lt;/p&gt;&#xA;&lt;h2 id=&#34;环境和模型来源&#34;&gt;环境和模型来源&lt;/h2&gt;&#xA;&lt;p&gt;本机环境是 4*2080ti 共 88G 显存，关于模型运行的硬件配置要求可以参考 &lt;a href=&#34;https://aibook.ren/archives/llm-deploy-computility-table&#34;&gt;这篇文章&lt;/a&gt; 以及模型自身的参考文档。&lt;/p&gt;&#xA;&lt;p&gt;模型下载链接：&lt;a href=&#34;https://huggingface.co/baichuan-inc/Baichuan-M2-32B&#34;&gt;Baichuan-M2-32B · HuggingFace&lt;/a&gt;，当然也可以选择国内的魔搭社区：&lt;a href=&#34;https://www.modelscope.cn/models/baichuan-inc/Baichuan-M2-32B&#34;&gt;Baichuan-M2-32B · ModelScope&lt;/a&gt;。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>归档</title>
-      <link>https://stranding-flow.github.io/archive/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://stranding-flow.github.io/archive/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>搁浅 Flow</title>
+		<link>https://stranding-flow.github.io/</link>
+		<description>Recent content on 搁浅 Flow</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+			<copyright>© {year} 搁浅 Flow</copyright>
+		
+		
+			<lastBuildDate>Sun, 10 May 2026 18:08:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://stranding-flow.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>一个草率的开始</title>
+				<link>https://stranding-flow.github.io/posts/%E4%B8%80%E4%B8%AA%E8%8D%89%E7%8E%87%E7%9A%84%E5%BC%80%E5%A7%8B/</link>
+				<pubDate>Sun, 10 May 2026 18:08:00 +0800</pubDate>
+				<guid>https://stranding-flow.github.io/posts/%E4%B8%80%E4%B8%AA%E8%8D%89%E7%8E%87%E7%9A%84%E5%BC%80%E5%A7%8B/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;这是一个测试。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;我曾无数次写下这句话，在我不厌其烦地研究那些新奇的笔记软件、博客框架的时候。但时至今日，产出仍然是零。这好像是一个很多人都会踏进的困境，疯狂地追求金玉其外，可在一通看似极具成就感的折腾之后，并没有留下什么。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>归档</title>
+				<link>https://stranding-flow.github.io/archive/</link>
+				<pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+				<guid>https://stranding-flow.github.io/archive/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

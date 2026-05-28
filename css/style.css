@@ -87,12 +87,14 @@ body {
 
 @keyframes reveal {
   from { clip-path: inset(var(--from)); }
+  to { clip-path: inset(0 0 0 0); }
 }
 
 ::view-transition-new(animation-theme-toggle) {
-  animation: reveal 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: reveal 1.2s cubic-bezier(0.4, 0, 0.6, 1);
   clip-path: inset(0 0 0 0);
   z-index: 99;
+  will-change: clip-path;
 }
 
 ::view-transition-old(animation-theme-toggle) {

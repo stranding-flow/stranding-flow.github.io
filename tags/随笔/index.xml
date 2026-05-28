@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>文章 on 搁浅 Flow</title>
-		<link>https://stranding-flow.github.io/posts/</link>
-		<description>Recent content in 文章 on 搁浅 Flow</description>
+		<title>随笔 on 搁浅 Flow</title>
+		<link>https://stranding-flow.github.io/tags/%E9%9A%8F%E7%AC%94/</link>
+		<description>Recent content in 随笔 on 搁浅 Flow</description>
 		<generator>Hugo</generator>
 		<language>zh-cn</language>
 		
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Sun, 10 May 2026 18:08:00 +0800</lastBuildDate>
 		
-			<atom:link href="https://stranding-flow.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://stranding-flow.github.io/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>一个草率的开始</title>
 				<link>https://stranding-flow.github.io/posts/%E4%B8%80%E4%B8%AA%E8%8D%89%E7%8E%87%E7%9A%84%E5%BC%80%E5%A7%8B/</link>
